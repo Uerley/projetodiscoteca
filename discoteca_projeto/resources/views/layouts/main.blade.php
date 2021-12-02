@@ -40,7 +40,8 @@
       
     </head>
     <body>
-    @yield('content')
+		
+   
     		<!-- Navigation-->
        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 			<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -52,9 +53,8 @@
                         <a class="nav-link" href="markteplace.html">MarketPlace</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cadastrodisco.html">Adicionar disco</a>
+                        <a class="nav-link" href="/posts/criar">Adicionar disco</a>
                     </li>
-
                 </ul>
 			</div>
 			<div class="mx-auto order-0">
@@ -82,7 +82,7 @@
                 </div>    
             </div>
         </header>
-		
+	 @yield('content')
    	<footer class="footer py-lg-5">
             <div class="container dark">
                 <div class="row align-items-center">
