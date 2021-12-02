@@ -71,7 +71,7 @@
 
 						<div class="max-width">
 							<div class="ImageContainer">
-								<img src="photo.png" id="image" alt="selecione uma imagem">
+								<img src="/img/photo.png" id="image" alt="selecione uma imagem">
 							</div>
 						</div>
 
